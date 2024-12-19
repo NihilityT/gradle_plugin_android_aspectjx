@@ -80,7 +80,6 @@ class AJXTransform(project: Project) : Transform() {
                 // 重新排序
                 includes.sort()
                 excludes.sort()
-                ajcArgs.sort()
             }
         }
     }
